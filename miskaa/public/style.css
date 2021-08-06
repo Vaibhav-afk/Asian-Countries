@@ -2,3 +2,22 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 20px;
+    background-image: linear-gradient(#F5B69F,#F6B19C,#F5B69F)
+}
+
+::--webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#986D8E, slategrey);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb-hover {
+    background-image: linear-gradient(rgb(124, 113, 12), rgb(150, 147, 10));
+}

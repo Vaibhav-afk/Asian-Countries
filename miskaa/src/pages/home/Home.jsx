@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Card from "../../components/card/Cards";
+import Cards from "../../components/card/Cards";
 
 function Home() {
   const [data, setData] = useState([]);
@@ -17,8 +17,22 @@ function Home() {
 
   return (
     <div>
-      {data.map((country, i) => (
-        <Card key={i} data={country} />
+      <strong>
+        <h1
+          style={{
+            fontSize:"48px",
+            color: "#ffffff",
+            padding: "30px",
+            textAlign: "center",
+            backgroundColor: "#000000",
+          }}
+        >
+          Asian Countries
+        </h1>
+      </strong>
+
+      {data.map((country) => (
+        <Cards className="card-list" key={country.name} data={country} />
       ))}
     </div>
   );

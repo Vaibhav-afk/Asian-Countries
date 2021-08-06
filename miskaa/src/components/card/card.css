@@ -1,7 +1,16 @@
+.cardContainer {
+    background-color: #986D8E;
+    margin-top: -8px;
+    z-index: 1;
+}
+
 .g-4 {
-    background-color: blueviolet;
+    box-shadow: 8px 6px 2px 1px rgba(12, 12, 185, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+    background-image: linear-gradient(#F6AE99, #F2E1C1, #F6AE99);
     padding-top: 50px;
-    margin: 0 50px;
+    margin: 16px 35%;
 }
 
 .cardWrapper {
