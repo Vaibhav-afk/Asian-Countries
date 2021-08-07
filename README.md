@@ -11,6 +11,9 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
+     <li>
+      <a href="#screenshots">Screenshots</a>
+    </li>
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
@@ -22,6 +25,15 @@
     </li>
   </ol>
 </details>
+
+## Screenshots
+<br/>
+<p align="center">
+ <img src="https://github.com/Vaibhav-afk/Asian-Countries/blob/main/1.PNG" alt="screenshot1" width="700" height="350">
+  <br/>
+  <br/>
+  <img src="https://github.com/Vaibhav-afk/Asian-Countries/blob/main/2.PNG" alt="screenshot2" width="700" height="350">
+</p>
 
 ## About The Project
 This website fetch list of all asian countries with information (like name, capital, flag image, region, subregion, etc) through `restcountries.eu` api.
