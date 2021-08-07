@@ -20,6 +20,9 @@ function Home() {
       <strong>
         <h1
           style={{
+            zIndex:1,
+            position: "sticky",
+            top: 0,
             fontSize:"48px",
             color: "#ffffff",
             padding: "30px",
