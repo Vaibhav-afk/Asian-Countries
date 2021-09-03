@@ -1,0 +1,15 @@
+.refreshButton{
+    background-color: #4AA96C;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 2.5rem;
+    width: 4rem;
+    opacity: 0.9;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.refreshButton:hover{
+    opacity: 1;
+}
